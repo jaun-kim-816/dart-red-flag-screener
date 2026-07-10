@@ -1,0 +1,17 @@
+{
+  "name": "dart-red-flag-screener",
+  "version": "1.1.0",
+  "description": "DART Open API로 상장사 재무제표를 수집해 금감원 회계감리 지적사례 기반 룰셋으로 레드플래그를 스크리닝하는 회계 감사 보조 플러그인",
+  "author": { "name": "AX Hackathon Team" },
+  "license": "MIT",
+  "keywords": ["dart", "audit", "accounting", "red-flag", "screening", "kifrs"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "DART Red-Flag Screener",
+    "shortDescription": "금감원 감리 지적사례 기반 재무제표 레드플래그 스크리너",
+    "longDescription": "회계사·감사인이 감사 대상 기업의 재무제표에서 금융감독원 회계심사·감리 지적사례 패턴(가공매출, 손실 인식 지연, 종속·관계기업 손상 미인식 등)을 사전 점검할 수 있다. DART Open API로 3개년 재무제표를 자동 수집하고, 지적사례에 매핑된 10개 룰로 판정해 근거 수치가 담긴 리포트를 생성한다(dart-screener). 동종업계 상장사와의 지표 비교로 판정 기준선을 보완한다(peer-compare).",
+    "developerName": "AX Hackathon Team",
+    "category": "Productivity",
+    "defaultPrompt": ["삼성전자 최근 3개년 재무제표 레드플래그 점검해줘"]
+  }
+}

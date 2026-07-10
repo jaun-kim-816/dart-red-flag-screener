@@ -1,0 +1,12 @@
+.env
+.env.*
+!.env.example
+logs/
+.omc/
+.claude/
+.codex/
+.agents/
+.DS_Store
+__pycache__/
+answers-draft.md
+CLAUDE.md
